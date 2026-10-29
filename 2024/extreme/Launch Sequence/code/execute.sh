@@ -8,7 +8,7 @@ npm install --global verdaccio serve
 
 verdaccio --listen 0.0.0.0:6873 &
 
-ngrok config add-authtoken 2kPSfYnbf4ozffa7TyHVWwI6Fm8_5WW2eADY7YHuSEmQevNNj
+ngrok config add-authtoken "$NGROK_AUTHTOKEN"
 
 echo "server {
     listen 8000 default_server;
